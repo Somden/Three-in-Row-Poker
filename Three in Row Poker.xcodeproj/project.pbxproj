@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD4CBEC31B62E20A00CAAB4B /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4CBEC21B62E20A00CAAB4B /* OptionsViewController.swift */; };
+		BD4CBEC51B62EB7F00CAAB4B /* GameResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4CBEC41B62EB7F00CAAB4B /* GameResultViewController.swift */; };
+		BD948D301B6EBE71005D9D01 /* JokerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD948D2F1B6EBE71005D9D01 /* JokerViewController.swift */; };
+		BDA0C7851B4EFDFF00634B42 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C7841B4EFDFF00634B42 /* Card.swift */; };
+		BDA0C7871B4F03F200634B42 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C7861B4F03F200634B42 /* Game.swift */; };
+		BDA0C7891B4F09E500634B42 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C7881B4F09E500634B42 /* Array2D.swift */; };
+		BDA0C7921B507BDB00634B42 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BDA0C7911B507BDB00634B42 /* Sprites.atlas */; };
+		BDA0C7941B52840600634B42 /* CombinationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C7931B52840600634B42 /* CombinationProtocol.swift */; };
+		BDA0C7971B52857200634B42 /* OnePairCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C7961B52857200634B42 /* OnePairCombination.swift */; };
+		BDA0C7991B52889F00634B42 /* TwoPairCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C7981B52889F00634B42 /* TwoPairCombination.swift */; };
+		BDA0C79B1B5288FC00634B42 /* ThreeOfAKindCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C79A1B5288FC00634B42 /* ThreeOfAKindCombination.swift */; };
+		BDA0C79D1B52893900634B42 /* StraightCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C79C1B52893900634B42 /* StraightCombination.swift */; };
+		BDA0C79F1B52897200634B42 /* FlushCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C79E1B52897200634B42 /* FlushCombination.swift */; };
+		BDA0C7A11B528A0E00634B42 /* FullHouseCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C7A01B528A0E00634B42 /* FullHouseCombination.swift */; };
+		BDA0C7A31B528AE700634B42 /* FourOfAKindCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C7A21B528AE700634B42 /* FourOfAKindCombination.swift */; };
+		BDA0C7A51B528B3800634B42 /* StraightFlushCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C7A41B528B3800634B42 /* StraightFlushCombination.swift */; };
+		BDA0C7A71B528B7200634B42 /* RoyalFlushCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C7A61B528B7200634B42 /* RoyalFlushCombination.swift */; };
+		BDA0C7A91B528C0300634B42 /* PokerCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C7A81B528C0300634B42 /* PokerCombinations.swift */; };
+		BDA2F6C51B4DC6EE00EFC738 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2F6C41B4DC6EE00EFC738 /* AppDelegate.swift */; };
+		BDA2F6C91B4DC6EE00EFC738 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2F6C81B4DC6EE00EFC738 /* GameScene.swift */; };
+		BDA2F6CB1B4DC6EE00EFC738 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2F6CA1B4DC6EE00EFC738 /* GameViewController.swift */; };
+		BDA2F6CE1B4DC6EE00EFC738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA2F6CC1B4DC6EE00EFC738 /* Main.storyboard */; };
+		BDA2F6D01B4DC6EE00EFC738 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA2F6CF1B4DC6EE00EFC738 /* Images.xcassets */; };
+		BDA2F6D31B4DC6EE00EFC738 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA2F6D11B4DC6EE00EFC738 /* LaunchScreen.xib */; };
+		BDA2F6EB1B4DD27800EFC738 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2F6EA1B4DD27800EFC738 /* MenuViewController.swift */; };
+		BDD870341B79485600DBAECC /* RoundedUpperCornersButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD870331B79485500DBAECC /* RoundedUpperCornersButton.swift */; };
+		BDD870361B79496D00DBAECC /* RoundedBottomCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD870351B79496D00DBAECC /* RoundedBottomCornersView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD4CBEC21B62E20A00CAAB4B /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		BD4CBEC41B62EB7F00CAAB4B /* GameResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameResultViewController.swift; sourceTree = "<group>"; };
+		BD7F34041B69731C00CC8FBD /* Three in Row Poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three in Row Poker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD948D2F1B6EBE71005D9D01 /* JokerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokerViewController.swift; sourceTree = "<group>"; };
+		BDA0C7841B4EFDFF00634B42 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		BDA0C7861B4F03F200634B42 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		BDA0C7881B4F09E500634B42 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		BDA0C7911B507BDB00634B42 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		BDA0C7931B52840600634B42 /* CombinationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinationProtocol.swift; sourceTree = "<group>"; };
+		BDA0C7961B52857200634B42 /* OnePairCombination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePairCombination.swift; sourceTree = "<group>"; };
+		BDA0C7981B52889F00634B42 /* TwoPairCombination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoPairCombination.swift; sourceTree = "<group>"; };
+		BDA0C79A1B5288FC00634B42 /* ThreeOfAKindCombination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeOfAKindCombination.swift; sourceTree = "<group>"; };
+		BDA0C79C1B52893900634B42 /* StraightCombination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StraightCombination.swift; sourceTree = "<group>"; };
+		BDA0C79E1B52897200634B42 /* FlushCombination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlushCombination.swift; sourceTree = "<group>"; };
+		BDA0C7A01B528A0E00634B42 /* FullHouseCombination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullHouseCombination.swift; sourceTree = "<group>"; };
+		BDA0C7A21B528AE700634B42 /* FourOfAKindCombination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourOfAKindCombination.swift; sourceTree = "<group>"; };
+		BDA0C7A41B528B3800634B42 /* StraightFlushCombination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StraightFlushCombination.swift; sourceTree = "<group>"; };
+		BDA0C7A61B528B7200634B42 /* RoyalFlushCombination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoyalFlushCombination.swift; sourceTree = "<group>"; };
+		BDA0C7A81B528C0300634B42 /* PokerCombinations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerCombinations.swift; sourceTree = "<group>"; };
+		BDA2F6C31B4DC6EE00EFC738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA2F6C41B4DC6EE00EFC738 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDA2F6C81B4DC6EE00EFC738 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BDA2F6CA1B4DC6EE00EFC738 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BDA2F6CD1B4DC6EE00EFC738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDA2F6CF1B4DC6EE00EFC738 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDA2F6D21B4DC6EE00EFC738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BDA2F6EA1B4DD27800EFC738 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		BDD870331B79485500DBAECC /* RoundedUpperCornersButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedUpperCornersButton.swift; sourceTree = "<group>"; };
+		BDD870351B79496D00DBAECC /* RoundedBottomCornersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedBottomCornersView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDA2F6BC1B4DC6EE00EFC738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDA0C7821B4EFD8200634B42 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2F6CA1B4DC6EE00EFC738 /* GameViewController.swift */,
+				BDA2F6EA1B4DD27800EFC738 /* MenuViewController.swift */,
+				BD4CBEC21B62E20A00CAAB4B /* OptionsViewController.swift */,
+				BD4CBEC41B62EB7F00CAAB4B /* GameResultViewController.swift */,
+				BD948D2F1B6EBE71005D9D01 /* JokerViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BDA0C7831B4EFDE500634B42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDA0C7841B4EFDFF00634B42 /* Card.swift */,
+				BDA0C7861B4F03F200634B42 /* Game.swift */,
+				BDA0C7881B4F09E500634B42 /* Array2D.swift */,
+				BDA0C7931B52840600634B42 /* CombinationProtocol.swift */,
+				BDA0C7A81B528C0300634B42 /* PokerCombinations.swift */,
+				BDA0C7951B52855400634B42 /* Combinations */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BDA0C7951B52855400634B42 /* Combinations */ = {
+			isa = PBXGroup;
+			children = (
+				BDA0C7961B52857200634B42 /* OnePairCombination.swift */,
+				BDA0C7981B52889F00634B42 /* TwoPairCombination.swift */,
+				BDA0C79A1B5288FC00634B42 /* ThreeOfAKindCombination.swift */,
+				BDA0C79C1B52893900634B42 /* StraightCombination.swift */,
+				BDA0C79E1B52897200634B42 /* FlushCombination.swift */,
+				BDA0C7A01B528A0E00634B42 /* FullHouseCombination.swift */,
+				BDA0C7A21B528AE700634B42 /* FourOfAKindCombination.swift */,
+				BDA0C7A41B528B3800634B42 /* StraightFlushCombination.swift */,
+				BDA0C7A61B528B7200634B42 /* RoyalFlushCombination.swift */,
+			);
+			name = Combinations;
+			sourceTree = "<group>";
+		};
+		BDA2F6B61B4DC6ED00EFC738 = {
+			isa = PBXGroup;
+			children = (
+				BDA2F6C11B4DC6EE00EFC738 /* Three in Row Poker */,
+				BD7F34041B69731C00CC8FBD /* Three in Row Poker.app */,
+			);
+			sourceTree = "<group>";
+		};
+		BDA2F6C11B4DC6EE00EFC738 /* Three in Row Poker */ = {
+			isa = PBXGroup;
+			children = (
+				BDD870321B79481500DBAECC /* Controls */,
+				BDA0C7831B4EFDE500634B42 /* Model */,
+				BDA0C7821B4EFD8200634B42 /* Controllers */,
+				BDA2F6E81B4DD22300EFC738 /* Scenes */,
+				BDA2F6C41B4DC6EE00EFC738 /* AppDelegate.swift */,
+				BDA2F6CC1B4DC6EE00EFC738 /* Main.storyboard */,
+				BDA2F6CF1B4DC6EE00EFC738 /* Images.xcassets */,
+				BDA2F6D11B4DC6EE00EFC738 /* LaunchScreen.xib */,
+				BDA0C7911B507BDB00634B42 /* Sprites.atlas */,
+				BDA2F6C21B4DC6EE00EFC738 /* Supporting Files */,
+			);
+			path = "Three in Row Poker";
+			sourceTree = "<group>";
+		};
+		BDA2F6C21B4DC6EE00EFC738 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2F6C31B4DC6EE00EFC738 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDA2F6E81B4DD22300EFC738 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2F6C81B4DC6EE00EFC738 /* GameScene.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		BDD870321B79481500DBAECC /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				BDD870331B79485500DBAECC /* RoundedUpperCornersButton.swift */,
+				BDD870351B79496D00DBAECC /* RoundedBottomCornersView.swift */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDA2F6BE1B4DC6EE00EFC738 /* Three in Row Poker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA2F6E21B4DC6EE00EFC738 /* Build configuration list for PBXNativeTarget "Three in Row Poker" */;
+			buildPhases = (
+				BDA2F6BB1B4DC6EE00EFC738 /* Sources */,
+				BDA2F6BC1B4DC6EE00EFC738 /* Frameworks */,
+				BDA2F6BD1B4DC6EE00EFC738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Three in Row Poker";
+			productName = "Three in Row Poker";
+			productReference = BD7F34041B69731C00CC8FBD /* Three in Row Poker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDA2F6B71B4DC6ED00EFC738 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Denis Somok";
+				TargetAttributes = {
+					BDA2F6BE1B4DC6EE00EFC738 = {
+						CreatedOnToolsVersion = 6.3.2;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BDA2F6BA1B4DC6ED00EFC738 /* Build configuration list for PBXProject "Three in Row Poker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDA2F6B61B4DC6ED00EFC738;
+			productRefGroup = BDA2F6B61B4DC6ED00EFC738;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDA2F6BE1B4DC6EE00EFC738 /* Three in Row Poker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDA2F6BD1B4DC6EE00EFC738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA2F6D31B4DC6EE00EFC738 /* LaunchScreen.xib in Resources */,
+				BDA2F6D01B4DC6EE00EFC738 /* Images.xcassets in Resources */,
+				BDA0C7921B507BDB00634B42 /* Sprites.atlas in Resources */,
+				BDA2F6CE1B4DC6EE00EFC738 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDA2F6BB1B4DC6EE00EFC738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA0C7891B4F09E500634B42 /* Array2D.swift in Sources */,
+				BDA0C79B1B5288FC00634B42 /* ThreeOfAKindCombination.swift in Sources */,
+				BDA2F6C91B4DC6EE00EFC738 /* GameScene.swift in Sources */,
+				BDA0C7871B4F03F200634B42 /* Game.swift in Sources */,
+				BDA0C7A51B528B3800634B42 /* StraightFlushCombination.swift in Sources */,
+				BDD870361B79496D00DBAECC /* RoundedBottomCornersView.swift in Sources */,
+				BD4CBEC51B62EB7F00CAAB4B /* GameResultViewController.swift in Sources */,
+				BDA0C79D1B52893900634B42 /* StraightCombination.swift in Sources */,
+				BDA0C7A71B528B7200634B42 /* RoyalFlushCombination.swift in Sources */,
+				BDA0C7A11B528A0E00634B42 /* FullHouseCombination.swift in Sources */,
+				BDA0C79F1B52897200634B42 /* FlushCombination.swift in Sources */,
+				BD948D301B6EBE71005D9D01 /* JokerViewController.swift in Sources */,
+				BDA2F6CB1B4DC6EE00EFC738 /* GameViewController.swift in Sources */,
+				BDA0C7971B52857200634B42 /* OnePairCombination.swift in Sources */,
+				BDD870341B79485600DBAECC /* RoundedUpperCornersButton.swift in Sources */,
+				BDA0C7A91B528C0300634B42 /* PokerCombinations.swift in Sources */,
+				BD4CBEC31B62E20A00CAAB4B /* OptionsViewController.swift in Sources */,
+				BDA0C7A31B528AE700634B42 /* FourOfAKindCombination.swift in Sources */,
+				BDA0C7851B4EFDFF00634B42 /* Card.swift in Sources */,
+				BDA0C7991B52889F00634B42 /* TwoPairCombination.swift in Sources */,
+				BDA2F6C51B4DC6EE00EFC738 /* AppDelegate.swift in Sources */,
+				BDA2F6EB1B4DD27800EFC738 /* MenuViewController.swift in Sources */,
+				BDA0C7941B52840600634B42 /* CombinationProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDA2F6CC1B4DC6EE00EFC738 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA2F6CD1B4DC6EE00EFC738 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDA2F6D11B4DC6EE00EFC738 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA2F6D21B4DC6EE00EFC738 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDA2F6E01B4DC6EE00EFC738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDA2F6E11B4DC6EE00EFC738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDA2F6E31B4DC6EE00EFC738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Three in Row Poker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDA2F6E41B4DC6EE00EFC738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Three in Row Poker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDA2F6BA1B4DC6ED00EFC738 /* Build configuration list for PBXProject "Three in Row Poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA2F6E01B4DC6EE00EFC738 /* Debug */,
+				BDA2F6E11B4DC6EE00EFC738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA2F6E21B4DC6EE00EFC738 /* Build configuration list for PBXNativeTarget "Three in Row Poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA2F6E31B4DC6EE00EFC738 /* Debug */,
+				BDA2F6E41B4DC6EE00EFC738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDA2F6B71B4DC6ED00EFC738 /* Project object */;
+}
